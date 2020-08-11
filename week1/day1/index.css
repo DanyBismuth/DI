@@ -1,0 +1,59 @@
+header h1 { 
+text-shadow: 0 0 3px #FF0000;
+text-transform: capitalize;	
+font-size: 50px;
+color: black;
+border: solid;
+
+ }
+
+header nav {
+	color: white;
+	text-shadow: 2px 2px 3px #000000;
+	padding: 20px 10px 20px 10px; 
+	margin: 20px;
+}
+
+body {
+	background-image: url(Black_Widow_2.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+}
+
+p {
+	color: #000000;
+	text-shadow: 2px 2px #ffffff;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 2em;
+	font-weight: bolder;
+}
+.Comicsimage{
+	float: right;
+	height: 500px
+}
+h3 {
+	font-size: 3em;
+	text-underline-position: 2px;
+}
+ul {
+	list-style: none;
+	font-size: 2em;
+	color: #000000;
+}
+
+a {
+	color: black;
+	text-shadow: 1px 1px #ffffff;
+	text-decoration: none;
+}
+
+footer p {
+	font-size: 1em;
+	color: #BB4430;
+}
+
+footer a{
+	font-size: 1em;
+	color: #BB4430;
+}
