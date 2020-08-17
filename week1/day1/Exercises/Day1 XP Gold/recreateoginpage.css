@@ -15,9 +15,9 @@
 }
 
 /* Control the right side */
-.split .right {
+.right {
   right: 0;
-  background-color: violet;
+  background: linear-gradient (black, violet);
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -28,3 +28,4 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+

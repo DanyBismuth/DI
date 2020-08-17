@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Patterns</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="case"></div>
+		<div class="orange"></div>
+		<div class="white"></div>
+		<div class="brown"></div>
+</body>
+</html>
