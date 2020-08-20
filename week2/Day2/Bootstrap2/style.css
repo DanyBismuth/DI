@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+}
+
+#navbar {
+	background-color: lightgrey!important;
+}
+
+ .jumbotron {
+      background: url('bg-masthead.jpg') no-repeat center center;
+      background-size: cover;
+      padding-top: 20%;
+      padding-bottom: 20%;
+      height: 600px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+  input {
+  	width: 500px;
+  }
+
+  #card-deck {
+  	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+i {
+	color: lightblue;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+}

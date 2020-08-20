@@ -1,0 +1,36 @@
+#navigation {
+	background-color: #5B4182!important;
+	border-bottom: 2px solid black;
+}
+
+.jumbotron {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+}
+
+.video {
+	width: 1000px;
+	margin: auto;
+}
+
+.carousel {
+	width: 1000px;
+	margin: auto;
+}
+
+.signup-form {
+	width: 1000px;
+	margin: auto;
+	border: 15px solid #5B4182;
+	background-color: #5B4182!important;
+}
+
+.indigo {
+border-top: 2px solid black;
+background-color: #5B4182!important;
+
+}
