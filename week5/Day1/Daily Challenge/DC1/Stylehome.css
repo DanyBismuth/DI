@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+background:     linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+	url(https://pleiadesservices.com/wp-content/uploads/2015/10/sample-2.jpg) !important;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.intro {
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+margin: 0;
+white-space: nowrap;
+}
+
+.name {
+font-size: 4rem;
+text-transform: uppercase;	
+}
+
+.moi {
+font-size: 1rem;
+}
+
+img {
+	border-radius: 50%;
+	height: 200px;
+	transform: translate(50%, -50%);
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p.aboutme {
+	font-size: 1.3rem;
+}
+
+.aboutme {
+	max-width: 500px;
+	margin: 5px auto;
+	position: relative;
+	margin-bottom: 50px;
+	margin-top: -100px;
+}
+
+
+button {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+}
+
+header {
+background:     linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+	url(https://pleiadesservices.com/wp-content/uploads/2015/10/sample-2.jpg) !important;
+background-size: cover;
+height: 100vh;
+}
+
+.name {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+}
+
+.moi {
+text-transform: uppercase;
+margin: 0;
+font-size: 3rem;
+white-space: nowrap;
+}
