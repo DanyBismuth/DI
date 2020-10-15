@@ -1,0 +1,141 @@
+# Fonctions
+
+# name = input("what's your name ?")
+
+# input() = name of a function
+
+# To call a function (pulling bracket next to his name )
+# output variable
+# function name
+# brackets
+# arguments
+
+# to define a function
+# def is to create a function (to model and create a robot)
+
+# def get_age():
+#
+#     age = input("how old are you?") => Var age only working in the function after function over, var not existing anymore
+#     age = int(age)
+#
+#     return age => return Stop the Function
+
+# user_age = get_age()
+# print(user_age)
+
+# def real_age(min_age, max_age):
+#     valid_age=False
+#
+#     while not valid_age:
+#
+#         age = input("what your real age?")
+#         age = int(age)
+#
+#         if min_age<= age <= max_age:
+#             valid_age=True
+#         else:
+#             print("age not valid")
+#
+# user_age = real_age(0, 20)
+#
+# print(user_age)
+
+
+# Make_shirt
+# should receive 2 arguments: sentence and size
+# Print, I created a shirt with <size> with <sentence> on it
+
+# def make_shirt(size, sentence):
+#     print( f"I created a shirt {size} with {sentence} written on it !")
+#
+# make_shirt("M","Hello world")
+
+# Function is_upper
+# should recieved string(s)
+# return True if all char are uppercaser, else false
+# BTW: don't use the build in function,.isupper
+
+# def is_upper(s):
+#     for char in s:
+#         if char != char.upper():
+#             return False
+#
+#         return True
+
+
+# def make_shirt(sentence, size="M"):
+#     print( f"I created a shirt size {size} with {sentence} written on it !")
+#
+# make_shirt("Hello world")
+
+# positional argument --> Providing argument by order
+
+# keyword argument --> provide each argument with his name.
+
+# you can mix positional and keyword --> one rule : You cannot pass positional after Keyword argument
+
+# function happy_birthday
+# should received name, age , language , a cake
+# by default language is English
+# You will decide what language is supported by your function
+# it should print a birthday message
+# and display a cake ASCII art
+
+# def happy_birthday(name, age, cake,language = "EN" ):
+#     if language == "EN":
+#         print(f"happy birthday {name}")
+#         print("Here is your cake:")
+#
+#     elif language == "ES":
+#         print(f"Feliz Compleano {name}")
+#         print("tarta:")
+#
+#
+# my_cake = "yeah"
+#
+#
+#
+#
+# happy_birthday("rick", 29, my_cake)
+
+# fuction minmax
+# should receive a list of numbers
+# return min and the max
+
+# def minmax(nbs):
+#     return [min(nbs), max(nbs)]
+#
+# numbers = [1,234,5,13,76,14,51,34,36]
+# min_nb, max_nb = minmax(numbers)
+# print(min_nb)
+# print(max_nb)
+
+# function double_list
+#  take a list of numbers as argument
+# should multiplys all the number in the list by 2
+#  return the new list
+
+# after you executed the function
+# make sure the original list remain the same
+
+
+# def double_list(original_nbs):
+#     nbs = original_nbs.copy()
+#     i=0
+#     while i < len(nbs):
+#         nbs[i] = nbs[i]*2
+#         i += 1
+#
+#         return nbs
+#
+#
+# numbers = [1,234,5,13,76,14,51,34,36]
+# double_numbers = double_list(numbers)
+#
+# print(numbers)
+# print(double_numbers)
+
+
+
+
+
