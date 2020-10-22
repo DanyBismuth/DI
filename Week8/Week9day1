@@ -1,0 +1,90 @@
+class Phone():
+
+    spanish_name = 'telefono'
+    objs_count   = 0
+
+    def __init__(self, brand, size, adapter_type):
+        self.brand          = brand
+        self.size           = size
+        self.adapter_type   = adapter_type
+        Phone.objs_count += 1
+        if Phone.objs_count % 100 == 0:
+            Phone.anniversary()
+
+    @classmethod # Decorator
+
+    def anniversary(cls):
+        print(f"Happy birthday to Phone, so far, {cls.objs_count} objects have been created")
+
+     def __str__(self):
+        """
+        User friendly displayed name
+        """
+        return f'{self.brand} Phone ({self.size}")'
+
+    def __repr__(self):
+        return f"<Phone {self.brand}>"
+
+
+class AddressBook():
+    # Container for contact Object, it has the following attributes:
+    # - A contact list
+    def __init(self):
+        """
+        A container for Contact Object, representing a contacts book
+        """
+        self.contact_list = []
+
+    def add_contact (self, contact)
+    """
+    Add a contact to the Adress book
+    :param contact: (contact) contact to add
+    """
+    if not type(contact) == contact
+        raise TypeEror(f"Can only add contact objects to AddressBook, not {type(contact)}")
+
+    self.contact_list.append(contact)
+
+    def __str__(self):
+        return f"<address Book ({len(self.contact_list)}contacts>"
+
+
+class Contact():
+    # respresenting a person, it has the following attributes:
+    # -Name
+    # -Phone Number(opt)
+    # Mail (opt)
+    # -address (opt)
+    def __init__(self, name, phone_nb="",mail="",address=""):
+        """
+        Representing a Contaxt
+        :param name : str name of the contact
+        :param phone_nb: tr phone number
+        :param mail : (str) mail address of the contact 
+        :param address : (str) physical address of the contact
+        """
+        self.name=name
+        self. phone_nb=phone_nb
+        self.mail = mail
+        self.address = address
+
+        def __str__(self):
+            return f"<Contact '{self.name}'>"
+
+johns_contacts = [
+    Contact("Rick Smith", "0586878398", mail="ricksmith@gmail.com"),
+    Contact("Morty Smith", "0585878400", mail="mortysmith@gmail.com"),
+    Contact("Jerry Smith", "0546930747", mail="jerrysmith@gmail.com"),
+]
+
+
+
+for c in johns_contacts:
+    johns_book.add_contact(c)
+
+for c in emilys_contacts:
+    emilys_book.add_contact(c)
+
+
+print("contact:", contact[0])
+print("Book:",book)

@@ -70,11 +70,15 @@
 # Exercise 4
 
 class Zoo:
-    def __init__(zoo_name, name, animals):
-        self.animals = animals[]
-        self.name = name
+    def __init__(self, zoo_name, animals):
+        self.animals =[]
+        self.zoo_name = zoo_name
 
-    def add_aninal(self):
+    def add_animal(self):
+        self.animals.append()
 
 
+add_animal("zebra")
+
+print(Zoo)
 

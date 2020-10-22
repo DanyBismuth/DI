@@ -1,0 +1,45 @@
+# My goal: modify the behaviour of say_hello or say_goodbye so it prints the same thing 3 times (run
+# 3 times) BUT without touching the function
+
+
+# Conditions for a function to be called "Decorator":
+# 1) It needs to receive a function AND ONLY A FUNCTION
+# 2) It needs to return a function AND ONLY A FUNCTION
+# Most of the time, the decorator creates an inner function that wraps the original function
+
+def triple_exec(function):
+    def inner_function():
+        function()
+        function()
+        function()
+
+    return inner_function
+
+
+@triple_exec
+def say_hello():
+    print("Hello world !")
+
+
+# say_hello = triple_exec(say_hello)
+
+
+def say_goodbye():
+    print("Goodbye !")
+
+
+say_hello()
+
+ # Try to create a decorator that run the function 5 times
+ # Try to create a decorator that tells us how long did the function execution took
+ # to test how long a function takes to execute : you can use the time module
+
+ import time
+ before = time.time()
+ # the current time (in second before the execution
+ you_function()
+ end = time.time()
+ # The execution of <your_function>
+
+
+
